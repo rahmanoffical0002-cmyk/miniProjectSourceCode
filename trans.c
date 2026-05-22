@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define COMMIT_COUNT 5
+
 // clientData structure definition
 struct clientData
 {
@@ -30,6 +32,7 @@ int main(int argc, char *argv[])
     FILE *cfPtr;         // credit.dat file pointer
     unsigned int choice; // user's choice
 
+    printf("Repository commit count: %d\n", COMMIT_COUNT);
     cfPtr = fopen("credit.dat", "rb+");
     if (cfPtr == NULL)
     {
