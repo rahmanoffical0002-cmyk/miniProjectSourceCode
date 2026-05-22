@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define COMMIT_COUNT 100
+#define COMMIT_COUNT 10
 
 // clientData structure definition
 struct clientData
